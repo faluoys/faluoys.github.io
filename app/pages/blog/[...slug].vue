@@ -30,16 +30,16 @@ if (page.value.image) {
   defineOgImage('Portfolio', {
     title,
     description,
-    headline: 'Blog'
+    headline: '博客'
   })
 }
 
 const articleLink = computed(() => `${window?.location}`)
 
 const formatDate = (dateString: string) => {
-  return new Date(dateString).toLocaleDateString('en-US', {
+  return new Date(dateString).toLocaleDateString('zh-CN', {
     year: 'numeric',
-    month: 'short',
+    month: 'long',
     day: 'numeric'
   })
 }
@@ -54,7 +54,7 @@ const formatDate = (dateString: string) => {
           class="text-sm flex items-center gap-1"
         >
           <UIcon name="lucide:chevron-left" />
-          Blog
+          博客
         </ULink>
         <div class="flex flex-col gap-3 mt-8">
           <div class="flex text-xs text-muted items-center justify-center gap-2">
@@ -65,7 +65,7 @@ const formatDate = (dateString: string) => {
               -
             </span>
             <span v-if="page.minRead">
-              {{ page.minRead }} MIN READ
+              约 {{ page.minRead }} 分钟读完
             </span>
           </div>
           <NuxtImg
@@ -101,8 +101,8 @@ const formatDate = (dateString: string) => {
               size="sm"
               variant="link"
               color="neutral"
-              label="Copy link"
-              @click="copyToClipboard(articleLink, 'Article link copied to clipboard')"
+              label="复制链接"
+              @click="copyToClipboard(articleLink, '文章链接已复制')"
             />
           </div>
           <UContentSurround :surround />

@@ -1,27 +1,27 @@
-title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+title: 关于我
+description: 了解我作为一名前端开发工程师的成长历程、设计理念，以及我对打造直观数字体验的热爱。
 content: |
-  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  你好，我是 **faluoys**，一名前端开发工程师。过去六年里，我一直沉浸在数字产品的创造中，专注于打造不仅好用、而且真正直观、吸引人的用户体验。
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  我的道路始于 **波士顿大学**，在那里我获得了交互设计学位。也正是在那里，我发现了自己对设计的视觉语言和代码的逻辑之美的双重热爱。从那以后，我在这两个领域不断精进，因为我相信，最好的数字产品源自对美学和实现两方面的深刻理解。
 
-  ### My Design Philosophy
+  ### 我的设计理念
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  我的设计理念植根于 **同理心** 和 **解决问题**。我相信好的设计始于理解"为什么"——用户的需求、动机和痛点。我通过调研、迭代原型（通常用 Figma 等工具）和用户测试，确保我做出的方案真正有效。
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  我努力打造让人感觉毫不费力的界面，让功能与美感相辅相成。无论是打磨像素级精确的 UI，还是编写整洁的 Vue.js/Nuxt.js 代码，我始终关注为最终用户创造价值。
 
-  ### What Drives Me
+  ### 我的动力
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  让我对这份工作保持热情的，是持续不断的学习，以及把复杂想法转化为简洁优雅方案的挑战。没有什么比看到设计落地、并知道它让别人的数字体验更轻松或更愉快更有成就感了。
 
-  ### Beyond the Screen
+  ### 屏幕之外
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  不设计、不写代码的时候，你可能会看到我在探店波士顿新开的咖啡馆、在附近的步道徒步，或者偶尔为开源项目做贡献。
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+  感谢你的到访。欢迎浏览我的 [项目](/projects)，如果想合作也欢迎 [联系我](/#contact)！
 images:
   - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
+    alt: 我的咖啡工作角
   - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+    alt: 我的东京之旅

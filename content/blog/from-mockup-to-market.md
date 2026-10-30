@@ -1,160 +1,158 @@
 ---
-title: "From Mockup to Market: My End-to-End Product Design Process"
-description: A detailed breakdown of my iterative design methodology, from
-  initial research to final handoff, with practical tips for designers at every
-  stage.
+title: "从原型到上市：我的端到端产品设计流程"
+description: 详细拆解我的迭代式设计方法——从最初的调研到最终交付，并为各个阶段的设计师提供实用建议。
 date: 2025-04-23
 image: https://images.pexels.com/photos/1050312/pexels-photo-1050312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 minRead: 8
 author:
-  name: Emma Thompson
+  name: faluoys
   avatar:
-    src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: Emma Thompson
+    src: /avatar.jpg
+    alt: faluoys
 ---
 
-Creating successful digital products isn't about following a rigid formula—it's about developing a flexible framework that adapts to the unique challenges of each project. After refining my approach across dozens of products, I've developed a process that consistently delivers results while leaving room for creativity and iteration.
+打造成功的数字产品并不是套用一个固定公式，而是建立一套能适应每个项目独特挑战的灵活框架。在几十个产品中不断打磨之后，我总结出了一套既能稳定产出结果、又为创意和迭代留有空间的流程。
 
-In this article, I'll walk through my end-to-end design process, from initial discovery to developer handoff, using my recent work on the EcoTrack application as a case study.
+在这篇文章里，我会以最近做的 EcoTrack 应用为案例，带你走一遍我从最初调研到开发交付的完整设计流程。
 
-## Phase 1: Discovery & Research
+## 第一阶段：发现与调研
 
-Every great product starts with understanding the problem it's trying to solve. For EcoTrack, our challenge was creating an engaging way for users to track their environmental impact without feeling overwhelmed by guilt or complex data.
+每个好产品都始于理解它要解决的问题。对 EcoTrack 来说，我们的挑战是：找到一种有吸引力的方式，让用户追踪自己对环境的影响，同时又不会被内疚感或复杂的数据压垮。
 
-### User Interviews
+### 用户访谈
 
-I began by conducting interviews with 12 potential users across different demographics, focusing on their current habits and attitudes toward sustainability. These conversations revealed a crucial insight: most people wanted to make environmentally friendly choices but felt paralyzed by the complexity of calculating their impact.
+我先访谈了 12 位来自不同人群的潜在用户，重点了解他们当前的习惯和对可持续生活的态度。这些对话揭示了一个关键洞察：大多数人都想做出更环保的选择，却被计算自身影响的复杂性弄得无从下手。
 
-> "I care about the environment, but I have no idea if using a paper bag is actually better than plastic, or if my reusable water bottle makes any difference." — Interview participant
+> "我很关心环境，但我完全不知道用纸袋是不是真的比塑料袋好，也不知道我的可重复使用水杯到底有没有用。"——受访者
 
-### Competitive Analysis
+### 竞品分析
 
-Next, I analyzed existing sustainability apps, creating a feature comparison matrix to identify gaps and opportunities. Most competitors focused on carbon footprint calculations but failed to provide actionable guidance or positive reinforcement.
+接着，我分析了现有的可持续生活类应用，做了一份功能对比矩阵来寻找空白和机会。大多数竞品只关注碳足迹计算，却没能提供可执行的指导或正向激励。
 
-### Defining Success
+### 定义成功
 
-Before opening Figma, I collaborated with stakeholders to define clear success metrics:
+在打开 Figma 之前，我和相关方一起确定了清晰的成功指标：
 
-- Increase daily active usage by 40%
-- Improve user-reported understanding of environmental impact
-- Drive measurable behavior changes in at least two sustainability categories
+- 日活跃使用量提升 40%
+- 提升用户自评的对环境影响的理解程度
+- 在至少两个可持续类别中带来可衡量的行为改变
 
-## Phase 2: Ideation & Conceptualization
+## 第二阶段：构思与概念化
 
-With a solid understanding of the problem space, I moved into the creative phase of the process.
+对问题有了扎实的理解后，我进入了流程中的创意阶段。
 
-### Sketching
+### 手绘草图
 
-I always start with pen and paper, rapidly exploring different approaches without the constraints of digital tools. For EcoTrack, I filled three sketchbooks with concepts ranging from gamified experiences to data-heavy dashboards.
+我总是从纸和笔开始，在没有数字工具约束的情况下快速探索不同方向。为了 EcoTrack，我画满了三本速写本，概念从游戏化体验到数据密集型仪表盘都有。
 
-### Information Architecture
+### 信息架构
 
-Based on research insights, I developed a user-centered information architecture that prioritized simplicity and actionable information:
+基于调研洞察，我设计了一套以用户为中心的信息架构，优先保证简洁和可执行性：
 
-1. **Dashboard** — Personalized overview with immediate impact insights
-2. **Daily Tracker** — Simple logging of activities with immediate feedback
-3. **Impact Journey** — Visualization of progress over time
-4. **Action Center** — Customized recommendations based on user behavior
+1. **仪表盘**——个性化概览，即时呈现影响洞察
+2. **每日记录**——简单记录活动并获得即时反馈
+3. **影响之旅**——可视化展示长期进展
+4. **行动中心**——根据用户行为提供定制建议
 
-### Design Principles
+### 设计原则
 
-I established four core design principles to guide all decisions:
+我确立了四条核心设计原则来指导所有决策：
 
-- **Simplify complexity** — Translate environmental impact into understandable units
-- **Celebrate progress** — Focus on positive reinforcement rather than guilt
-- **Enable informed choices** — Provide context for decision-making
-- **Design for habit formation** — Create satisfying interaction loops
+- **化繁为简**——把环境影响转化为容易理解的单位
+- **庆祝进步**——关注正向激励而不是内疚
+- **支持明智选择**——为决策提供背景信息
+- **为养成习惯而设计**——打造令人满足的交互循环
 
-## Phase 3: Prototyping & Testing
+## 第三阶段：原型与测试
 
-With the conceptual framework in place, I moved into the iterative cycle of prototyping and testing.
+概念框架确定后，我进入了原型与测试的迭代循环。
 
-### Low-Fidelity Wireframes
+### 低保真线框图
 
-I created wireframes focusing on user flows and information hierarchy, deliberately keeping the visual design minimal to focus feedback on functionality and structure.
+我制作了聚焦用户流程和信息层级的线框图，刻意保持视觉设计的极简，让反馈集中在功能和结构上。
 
-### User Testing (Round 1)
+### 用户测试（第一轮）
 
-Testing wireframes with 8 participants revealed several key insights:
+和 8 位参与者测试线框图后，得到了几个关键洞察：
 
-- Users wanted more immediate feedback when logging activities
-- The impact visualization wasn't intuitive for most users
-- People were confused by technical environmental terminology
+- 用户希望记录活动时能得到更即时的反馈
+- 大多数用户觉得影响可视化不够直观
+- 专业的环保术语让人困惑
 
-### Mid-Fidelity Prototypes
+### 中保真原型
 
-Based on testing feedback, I refined the concept and developed interactive prototypes with more visual detail, focusing on:
+根据测试反馈，我优化了概念，并制作了视觉细节更丰富的交互原型，重点包括：
 
-- Simplified data visualization using familiar metaphors
-- Immediate positive reinforcement for logged activities
-- Progressive disclosure of more complex environmental information
+- 用熟悉的隐喻简化数据可视化
+- 对记录的活动给予即时正向激励
+- 渐进式展示更复杂的环境信息
 
-### User Testing (Round 2)
+### 用户测试（第二轮）
 
-A second round of testing showed significant improvements in usability, but highlighted new challenges:
+第二轮测试显示可用性有了显著提升，但也暴露出新的挑战：
 
-- Users wanted to compare their impact with friends or community averages
-- Weekly summaries were more motivating than daily statistics
-- The onboarding process felt too lengthy
+- 用户想把自己的影响与朋友或社区平均水平做比较
+- 每周汇总比每日统计更能激励人
+- 新手引导流程感觉太长
 
-## Phase 4: Visual Design & Refinement
+## 第四阶段：视觉设计与打磨
 
-With the core experience validated, I moved into high-fidelity visual design.
+核心体验得到验证后，我进入了高保真视觉设计阶段。
 
-### Visual Language
+### 视觉语言
 
-I developed a visual language that balanced approachability with credibility:
+我设计了一套兼顾亲和力与可信度的视觉语言：
 
-- A nature-inspired color palette with clear functional color coding
-- Custom iconography that simplified complex concepts
-- Typography that prioritized readability across devices
-- Micro-interactions that provided satisfaction and reinforcement
+- 受自然启发的配色，配以清晰的功能色编码
+- 定制图标，把复杂概念简单化
+- 在各种设备上都优先保证可读性的字体排印
+- 带来满足感和正向反馈的微交互
 
-### Design System
+### 设计系统
 
-To ensure consistency and facilitate development, I created a comprehensive design system including:
+为了保证一致性、方便开发，我建立了一套完整的设计系统，包括：
 
-- Component library with documented states and behaviors
-- Responsive layout guidelines
-- Animation specifications
-- Accessibility standards
+- 记录了各种状态和行为的组件库
+- 响应式布局规范
+- 动效规范
+- 无障碍标准
 
-### Final Prototype
+### 最终原型
 
-The final prototype brought together all elements into a cohesive experience, which we tested with a broader user group before moving to development.
+最终原型把所有元素整合成一个连贯的体验，在进入开发之前，我们又在更大的用户群体中做了测试。
 
-## Phase 5: Implementation & Iteration
+## 第五阶段：实现与迭代
 
-The design process doesn't end when development begins—it evolves.
+设计流程不会在开发开始时结束——它会持续演进。
 
-### Developer Collaboration
+### 与开发协作
 
-I worked closely with developers throughout implementation, participating in code reviews and adjusting designs to address technical constraints while preserving the core experience.
+在整个实现过程中，我和开发者紧密合作，参与代码评审，并在保留核心体验的前提下调整设计以应对技术限制。
 
-### Analytics Implementation
+### 数据埋点
 
-We integrated analytics to track our success metrics, setting up dashboards to monitor key interactions and user journeys.
+我们接入了数据分析来追踪成功指标，并搭建仪表盘监控关键交互和用户旅程。
 
-### Post-Launch Iteration
+### 上线后迭代
 
-After launch, we established a regular cycle of analysis and iteration:
+上线后，我们建立了固定的分析与迭代节奏：
 
-- Weekly reviews of user feedback and behavior data
-- Bi-weekly design sprints to address emerging issues
-- Monthly feature planning based on usage patterns
+- 每周复盘用户反馈和行为数据
+- 每两周一次设计冲刺，解决新出现的问题
+- 每月根据使用模式规划功能
 
-## Results & Learnings
+## 成果与收获
 
-Six months after launch, EcoTrack has exceeded our initial success metrics:
+上线六个月后，EcoTrack 超额完成了最初的成功指标：
 
-- 52% increase in daily active usage
-- 78% of users report better understanding of their environmental impact
-- Average user has adopted 3.4 new sustainable habits
+- 日活跃使用量提升 52%
+- 78% 的用户表示更了解自己对环境的影响
+- 平均每位用户养成了 3.4 个新的可持续习惯
 
-The most valuable lesson from this project was the importance of making abstract concepts tangible. By translating complex environmental data into personal, actionable insights, we created an experience that not only educated users but empowered them to make meaningful changes.
+这个项目最宝贵的经验是：要把抽象的概念变得具体可感。通过把复杂的环境数据转化为个人化、可执行的洞察，我们打造的体验不仅教育了用户，更赋予他们做出有意义改变的能力。
 
-## Conclusion
+## 结语
 
-Effective product design is never a linear journey—it's a continuous cycle of learning and refinement. By staying focused on user needs while maintaining a flexible approach to problem-solving, we can create products that not only meet business objectives but genuinely improve people's lives.
+有效的产品设计从来不是一条直线——它是一个不断学习和优化的循环。始终聚焦用户需求，同时以灵活的方式解决问题，我们就能打造出不仅达成商业目标、还能真正改善人们生活的产品。
 
-I'd love to hear about your own design process and how you approach similar challenges. Feel free to reach out with questions or share your experiences in the comments below.
+很想听听你的设计流程，以及你是如何应对类似挑战的。欢迎随时联系我提问，或在下方评论区分享你的经验。

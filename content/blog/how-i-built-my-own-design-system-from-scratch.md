@@ -1,32 +1,31 @@
 ---
-title: How I Built My Design System from Scratch
-description: A practical guide to creating your own design system, from initial
-  audit to implementation, and the lessons learned along the way.
+title: 我是如何从零搭建自己的设计系统的
+description: 一份打造个人设计系统的实用指南——从最初的盘点到落地实现，以及这一路上的经验教训。
 date: 2025-03-05
 image: https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 minRead: 6
 author:
-  name: Emma Thompson
+  name: faluoys
   avatar:
-    src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: Emma Thompson
+    src: /avatar.jpg
+    alt: faluoys
 ---
 
-After years of starting each project with a blank Figma file, I finally took the plunge and created my own comprehensive design system. The process was both challenging and incredibly rewarding, and I wanted to share my approach for other designers considering the same journey.
+多年来，我的每个项目都从一个空白的 Figma 文件开始。终于，我下定决心打造了一套属于自己的完整设计系统。这个过程既充满挑战又收获巨大，我想把我的方法分享给同样在考虑这条路的设计师们。
 
-I started by auditing five of my recent projects, identifying common patterns and components that appeared across different designs. This revealed inconsistencies in my work that I hadn't noticed before—seven slightly different button styles, inconsistent spacing rules, and text styles that varied without clear purpose.
+我先盘点了最近的五个项目，找出在不同设计中反复出现的模式和组件。这让我发现了以前从未注意到的不一致：七种略有差异的按钮样式、不统一的间距规则，还有毫无明确目的、各不相同的文字样式。
 
-Rather than creating a rigid system upfront, I built it iteratively through a real client project. For the EcoTrack app, I documented each component as I designed it, creating a living system that evolved with the project's needs.
+我没有一开始就建立一套僵硬的系统，而是在一个真实的客户项目中迭代搭建。在做 EcoTrack 应用时，我每设计一个组件就记录一个，形成了一套随项目需求演进的"活"系统。
 
-The core of my system includes:
+我的系统核心包括：
 
-- A flexible color system with semantic naming conventions
-- Typography scales based on the golden ratio
-- Component variants with clear usage guidelines
-- Spacing and layout rules that maintain consistency across devices
+- 采用语义化命名的灵活色彩体系
+- 基于黄金比例的字号层级
+- 带有清晰使用指南的组件变体
+- 在不同设备上保持一致的间距与布局规则
 
-The biggest challenge wasn't technical but psychological—learning to trust the system instead of reinventing solutions for each new problem. But the payoff has been enormous: my design process is now 40% faster, client revisions have decreased significantly, and handoff to development is much smoother.
+最大的挑战不是技术上的，而是心理上的——学会信任系统，而不是为每个新问题重新发明解决方案。但回报是巨大的：我的设计流程快了 40%，客户的修改次数明显减少，和开发的交接也顺畅了很多。
 
-If you're considering building your own system, my advice is to start small with core elements, test them on real projects, and document as you go. A good design system should feel like a trusted collaborator, not a set of restrictions.
+如果你也在考虑搭建自己的设计系统，我的建议是：从核心元素小步开始，在真实项目中检验，边做边记录。好的设计系统应该像一位值得信赖的合作伙伴，而不是一套束缚。
 
-I've attached a template of my component documentation method below—feel free to adapt it for your own workflow!
+我在下面附上了我的组件文档方法模板——欢迎根据你自己的工作流自由调整！

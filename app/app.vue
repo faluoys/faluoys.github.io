@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { zh_cn } from '@nuxt/ui/locale'
+
 const colorMode = useColorMode()
 
 const color = computed(() => colorMode.value === 'dark' ? '#020618' : 'white')
@@ -13,12 +15,12 @@ useHead({
     { rel: 'icon', href: '/favicon.ico' }
   ],
   htmlAttrs: {
-    lang: 'en'
+    lang: 'zh-CN'
   }
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt Portfolio Template',
+  titleTemplate: '%s - Nuxt 作品集模板',
   twitterCard: 'summary_large_image'
 })
 
@@ -42,7 +44,7 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
 </script>
 
 <template>
-  <UApp>
+  <UApp :locale="zh_cn">
     <NuxtLayout>
       <UMain class="relative">
         <NuxtPage />

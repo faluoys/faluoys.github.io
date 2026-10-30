@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { zh_cn } from '@nuxt/ui/locale'
 import type { NuxtError } from '#app'
 
 defineProps<{
@@ -7,13 +8,13 @@ defineProps<{
 
 useHead({
   htmlAttrs: {
-    lang: 'en'
+    lang: 'zh-CN'
   }
 })
 
 useSeoMeta({
-  title: 'Page not found',
-  description: 'We are sorry but this page could not be found.'
+  title: '页面不存在',
+  description: '抱歉，你访问的页面不存在。'
 })
 
 const [{ data: navigation }, { data: files }] = await Promise.all([
@@ -36,7 +37,7 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
 </script>
 
 <template>
-  <UApp>
+  <UApp :locale="zh_cn">
     <AppHeader :links="navLinks" />
 
     <UMain>

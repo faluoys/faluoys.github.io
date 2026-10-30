@@ -1,48 +1,48 @@
-title: Talks & Workshops
-description: Explore talks and workshops I've given on UX design, front-end development, and building better digital products.
+title: 演讲与工作坊
+description: 浏览我做过的关于 UX 设计、前端开发和打造更好数字产品的演讲与工作坊。
 links:
-  - label: Invite me to speak
+  - label: 邀请我演讲
     size: md
 events:
   - category: Conference
-    title: "Bridging the Gap: Design Systems for Designer-Developer Collaboration"
+    title: "弥合鸿沟：促进设计师与开发者协作的设计系统"
     date: "2024-10-26"
-    location: "VueConf US, Miami, FL"
+    location: "VueConf US，美国佛罗里达州迈阿密"
     url: "#"
   - category: Conference
-    title: "Intuitive Interfaces: Applying UX Principles in Nuxt.js Applications"
+    title: "直观的界面：在 Nuxt.js 应用中运用 UX 原则"
     date: "2024-06-15"
-    location: "Nuxt Nation, Online"
+    location: "Nuxt Nation，线上"
     url: "#"
   - category: Conference
-    title: "Accessibility First: Building Inclusive Web Apps"
+    title: "无障碍优先：构建包容性的 Web 应用"
     date: "2023-11-08"
-    location: "Boston Web Performance Meetup, Boston, MA"
+    location: "波士顿 Web 性能交流会，美国马萨诸塞州波士顿"
   - category: Live talk
-    title: "Mastering Component Design in Figma & Vue"
+    title: "精通 Figma 与 Vue 中的组件设计"
     date: "2024-08-20"
-    location: "Design & Dev Boston Meetup, Boston, MA"
+    location: "波士顿设计与开发交流会，美国马萨诸塞州波士顿"
     url: "#"
   - category: Live talk
-    title: "From Wireframe to Web: A Practical Front-End Workflow"
+    title: "从线框图到网页：一套实用的前端工作流"
     date: "2024-03-05"
-    location: "Internal Workshop @ PreviousCompany Inc."
+    location: "PreviousCompany Inc. 内部工作坊"
   - category: Live talk
-    title: "The Power of User Research in Product Development"
+    title: "用户研究在产品开发中的力量"
     date: "2023-09-12"
-    location: "Boston University Guest Lecture, Boston, MA"
+    location: "波士顿大学客座讲座，美国马萨诸塞州波士顿"
   - category: Podcast
-    title: "Designing for Developers: A UX Perspective"
+    title: "为开发者而设计：UX 视角"
     date: "2024-07-18"
-    location: "Syntax.fm (Guest)"
+    location: "Syntax.fm（嘉宾）"
     url: "#"
   - category: Podcast
-    title: "The Future of Front-End Frameworks & Design Tooling"
+    title: "前端框架与设计工具的未来"
     date: "2024-01-30"
-    location: "Design Details Podcast (Guest)"
+    location: "Design Details 播客（嘉宾）"
     url: "#"
   - category: Podcast
-    title: "Building a Career in UX/UI & Development"
+    title: "在 UX/UI 与开发领域建立职业生涯"
     date: "2023-05-22"
-    location: "TechForward Boston Podcast"
+    location: "TechForward Boston 播客"
     url: "#"

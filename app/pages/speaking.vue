@@ -32,6 +32,12 @@ defineOgImage('Portfolio', { title, description })
 
 const { global } = useAppConfig()
 
+const categoryLabels: Record<Event['category'], string> = {
+  'Conference': '大会演讲',
+  'Live talk': '线下分享',
+  'Podcast': '播客'
+}
+
 const groupedEvents = computed((): Record<Event['category'], Event[]> => {
   const events = page.value?.events || []
   const grouped: Record<Event['category'], Event[]> = {
@@ -46,7 +52,7 @@ const groupedEvents = computed((): Record<Event['category'], Event[]> => {
 })
 
 function formatDate(dateString: string): string {
-  return new Date(dateString).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })
+  return new Date(dateString).toLocaleDateString('zh-CN', { year: 'numeric', month: 'long' })
 }
 </script>
 
@@ -83,7 +89,7 @@ function formatDate(dateString: string): string {
           <h2
             class="lg:sticky lg:top-16 text-xl font-semibold tracking-tight text-highlighted"
           >
-            {{ category.replace(/([A-Z])/g, ' $1').replace(/^./, (str) => str.toUpperCase()) }}s
+            {{ categoryLabels[category] }}
           </h2>
         </div>
 
@@ -114,7 +120,7 @@ function formatDate(dateString: string): string {
             <UButton
               v-if="event.url"
               target="_blank"
-              :label="event.category === 'Podcast' ? 'Listen' : 'Watch'"
+              :label="event.category === 'Podcast' ? '收听' : '观看'"
               variant="link"
               class="p-0 pt-2 gap-0"
             >

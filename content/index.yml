@@ -1,55 +1,55 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "faluoys - 前端开发工程师"
+  description: "欢迎来到我的作品集！我是 faluoys，一名前端开发工程师，专注于打造以用户为中心、兼具美感与实用性的数字体验。"
+title: "你好，我是 faluoys，前端开发工程师"
+description: "我致力于打造设计与功能相融合的直观数字体验。常驻波士顿，用代码和创意让想法落地。"
 hero:
   links:
-    - label: "Use this template"
+    - label: "使用此模板"
       to: https://github.com/nuxt-ui-templates/portfolio
       color: "neutral"
   images:
     - src: /hero/random-1.avif
-      alt: Random Image 1
+      alt: 随机图片 1
     - src: /hero/random-2.avif
-      alt: Random Image 2
+      alt: 随机图片 2
     - src: /hero/random-3.avif
-      alt: Random Image 3
+      alt: 随机图片 3
     - src: /hero/random-4.avif
-      alt: Random Image 4
+      alt: 随机图片 4
     - src: /hero/random-5.avif
-      alt: Random Image 5
+      alt: 随机图片 5
     - src: /hero/random-6.avif
-      alt: Random Image 6
+      alt: 随机图片 6
     - src: /hero/random-7.avif
-      alt: Random Image 7
+      alt: 随机图片 7
     - src: /hero/random-8.avif
-      alt: Random Image 8
+      alt: 随机图片 8
     - src: /hero/random-9.avif
-      alt: Random Image 9
+      alt: 随机图片 9
 about:
-  title: "About Me"
+  title: "关于我"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    作为一名拥有 6 年经验的 UX/UI 设计师和前端开发者，我运用在波士顿大学交互设计专业所学，打造以用户为中心的数字体验。
+    我的方法融合了创意策略与技术专长，把概念转化为实用、有目标的数字产品，让设计与技术无缝结合。
 experience:
-  title: Work Experience
+  title: 工作经历
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "品牌设计师 @"
+      date: "2023 - 至今"
       company:
         name: Nuxt
         logo: "i-simple-icons-nuxtdotjs"
         url: "https://nuxt.com"
         color: "#00DC82"
-    - position: "Assets Designer at"
+    - position: "素材设计师 @"
       date: "2022 - 2023"
       company:
         name: Raycast
         logo: "i-simple-icons-raycast"
         url: "https://raycast.com"
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
+    - position: "高级 UX/UI 设计师 @"
       date: "2020 - 2021"
       company:
         name: Linear
@@ -57,64 +57,64 @@ experience:
         url: "https://linear.app"
         color: "#5E6AD2"
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  - quote: "faluoys 的 UX 设计方法彻底改变了我们的产品。这是一种难得的能力，能在美观与简洁实用之间取得平衡。重新设计后的产品不仅更好看，还让客服工单减少了 40%，各项关键指标的转化率也全面提升。"
     author:
       name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
+      description: 'Bloom Finance 产品总监'
       avatar:
         src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+  - quote: "和 faluoys 合作是我们创业以来做过的最好的决定。不只是交付设计稿——还会挑战我们的固有假设，做扎实的用户研究，打造出真正打动用户的体验。因为懂前端开发，所以和工程团队的交接非常顺畅。"
     author:
       name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
+      description: 'Wavelength Music 联合创始人'
       avatar:
         src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
+  - quote: "faluoys 特别擅长把复杂的可持续发展数据转化为直观的界面。在 EcoTrack 上的工作不只是视觉上惊艳——它从根本上改变了用户与环保信息的互动方式。兼具创造力和严谨的分析能力，这正是我们需要的。"
     author:
       name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
+      description: 'GreenTech Solutions 首席创新官'
       avatar:
         src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "最新文章"
+  description: "我最近的一些思考"
 faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  title: 常见问题
+  description: 关于我的工作流程和服务的常见问题解答。
   categories:
-    - title: Services & Process
+    - title: 服务与流程
       questions:
-        - label: What services do you offer?
+        - label: 你提供哪些服务？
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            我专注于 UX/UI 设计和前端开发，包括用户研究、线框图、交互原型、直观的用户界面设计、响应式网站和 Web 应用开发（尤其是 Vue.js/Nuxt.js），以及设计系统搭建。我的目标是从概念到上线，打造流畅的数字体验。
+        - label: 你的设计流程是怎样的？
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+            我的流程注重协作和迭代，通常包括调研与发现、构思与原型、用户测试、视觉设计，以及在开发阶段与研发团队紧密配合。我会根据项目需求灵活调整流程，始终以用户为中心。
+        - label: 你和初创公司合作吗？
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+            当然！我很喜欢和初创公司合作，帮助他们塑造产品愿景，从零开始打造友好的用户界面。我能调整自己的流程，适应初创公司快节奏的环境。
+    - title: 价格与周期
       questions:
-        - label: How much does a project typically cost?
+        - label: 一个项目通常收费多少？
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            项目费用取决于范围、复杂度、功能和周期。完整的 UX/UI 设计加前端开发项目通常 5,000 美元起，一般项目在 8,000 到 25,000 美元之间。咨询或单项设计任务按天计费，日薪 700 美元。
+        - label: 付款方式是怎样的？
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
+            通常需要先支付 40% 定金来排期并启动项目，剩余 60% 在项目顺利完成并交付后支付。支持银行转账和 Stripe 付款。
+        - label: 一个项目一般需要多长时间？
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
+            周期很大程度上取决于项目范围和复杂度。小项目可能需要 3-4 周，规模较大、较复杂的项目可能需要 2 到 4 个月。在初期调研阶段结束后，我都会提供详细的时间预估。
+        - label: 你提供长期合作或持续支持吗？
           content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            提供。对于需要持续设计支持、功能开发或维护的客户，我提供按月计费的长期合作方案，可以按具体需求定制。如果你感兴趣，欢迎来聊聊。
+    - title: 关于我
       questions:
-        - label: What do you enjoy most about your work?
+        - label: 你最喜欢这份工作的哪一点？
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
+            我喜欢通过设计和技术解决复杂问题的挑战。看到人们使用我做的东西，并觉得它真正有用、好上手，这是非常有成就感的事。在用户需求和技术可能性之间架起桥梁，是最让我兴奋的。
+        - label: 工作之外你有什么爱好？
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            不设计、不写代码的时候，我喜欢逛波士顿的各个街区、探店新开的咖啡馆，或者去附近的自然保护区徒步。我也热爱摄影，偶尔会参与开源项目。
