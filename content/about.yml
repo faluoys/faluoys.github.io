@@ -29,3 +29,37 @@ images:
     alt: 咖啡与代码
   - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     alt: 旅行的路上
+# 技术栈墙：图标名可在 https://icones.js.org 搜索（simple-icons / lucide 图标集）
+stack:
+  - title: 语言与框架
+    items:
+      - { name: Vue, icon: i-simple-icons-vuedotjs }
+      - { name: Nuxt, icon: i-simple-icons-nuxt }
+      - { name: TypeScript, icon: i-simple-icons-typescript }
+      - { name: JavaScript, icon: i-simple-icons-javascript }
+      - { name: HTML5, icon: i-simple-icons-html5 }
+      - { name: CSS, icon: i-simple-icons-css }
+      - { name: Pinia, icon: i-simple-icons-pinia }
+      - { name: VueUse, icon: i-simple-icons-vueuse }
+  - title: 样式与组件
+    items:
+      - { name: Tailwind CSS, icon: i-simple-icons-tailwindcss }
+      - { name: UnoCSS, icon: i-simple-icons-unocss }
+      - { name: Sass, icon: i-simple-icons-sass }
+      - { name: Element, icon: i-simple-icons-element }
+  - title: 工程化
+    items:
+      - { name: Vite, icon: i-simple-icons-vite }
+      - { name: Node.js, icon: i-simple-icons-nodedotjs }
+      - { name: pnpm, icon: i-simple-icons-pnpm }
+      - { name: ESLint, icon: i-simple-icons-eslint }
+      - { name: Vitest, icon: i-simple-icons-vitest }
+      - { name: GitHub Actions, icon: i-simple-icons-githubactions }
+  - title: 工具
+    items:
+      - { name: Git, icon: i-simple-icons-git }
+      - { name: VS Code, icon: i-simple-icons-visualstudiocode }
+      - { name: Figma, icon: i-simple-icons-figma }
+      - { name: Postman, icon: i-simple-icons-postman }
+      - { name: Docker, icon: i-simple-icons-docker }
+      - { name: Vercel, icon: i-simple-icons-vercel }

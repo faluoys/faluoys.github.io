@@ -1,5 +1,6 @@
 export default defineAppConfig({
   global: {
+    name: 'faluoys',
     picture: {
       dark: '/avatar.jpg',
       light: '/avatar.jpg',

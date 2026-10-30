@@ -54,6 +54,37 @@ defineOgImage('Portfolio', { title, description })
         :value="page.content"
         unwrap="p"
       />
+      <div
+        v-if="page.stack?.length"
+        class="mt-12"
+      >
+        <h2 class="text-2xl font-medium text-highlighted">
+          技术栈 <span class="mx-1 text-dimmed">/</span><span class="font-script font-normal text-primary">Stack</span>
+        </h2>
+        <div class="mt-6 flex flex-col gap-8">
+          <div
+            v-for="group in page.stack"
+            :key="group.title"
+          >
+            <h3 class="mb-3 text-sm font-medium text-muted">
+              {{ group.title }}
+            </h3>
+            <div class="grid grid-cols-3 gap-3 sm:grid-cols-4 lg:grid-cols-6">
+              <div
+                v-for="item in group.items"
+                :key="item.name"
+                class="group flex flex-col items-center gap-2 rounded-lg border border-default bg-elevated/40 px-2 py-4 transition-colors hover:border-primary/50 hover:bg-elevated"
+              >
+                <UIcon
+                  :name="item.icon"
+                  class="size-7 text-muted transition-colors group-hover:text-primary"
+                />
+                <span class="text-center text-xs text-toned">{{ item.name }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="flex flex-row justify-center items-center py-10 -space-x-8">
         <PolaroidItem
           v-for="(image, index) in page.images"

@@ -18,6 +18,17 @@ defineProps<{
         linkLeadingIcon: 'hidden'
       }"
     >
+      <template #item-label="{ item }">
+        {{ item.label }}
+        <span
+          v-if="item.en"
+          class="hidden sm:inline"
+        >
+          <span class="mx-0.5 text-dimmed">/</span>
+          <span class="font-script text-lg">{{ item.en }}</span>
+        </span>
+      </template>
+
       <template #list-trailing>
         <ColorModeButton />
       </template>

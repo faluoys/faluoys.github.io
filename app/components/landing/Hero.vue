@@ -3,9 +3,12 @@ import type { IndexCollectionItem } from '@nuxt/content'
 
 const { footer, global } = useAppConfig()
 
-defineProps<{
+const props = defineProps<{
   page: IndexCollectionItem
 }>()
+
+// 把标题里的名字单独拆出来，用手写体展示
+const titleParts = computed(() => props.page.title.split(global.name))
 </script>
 
 <template>
@@ -33,12 +36,32 @@ defineProps<{
           delay: 0.1
         }"
       >
-        <UColorModeAvatar
-          class="size-18 ring ring-default ring-offset-3 ring-offset-bg"
-          :light="global.picture?.light!"
-          :dark="global.picture?.dark!"
-          :alt="global.picture?.alt!"
-        />
+        <!-- 悬停（移动端点按）时头像 3D 翻转，背面显示名字；外圈轨道环持续旋转 -->
+        <div
+          class="group relative p-2 perspective-normal"
+          tabindex="0"
+        >
+          <div class="relative size-18 transition-transform duration-700 transform-3d group-hover:rotate-y-180 group-focus:rotate-y-180 motion-reduce:transition-none">
+            <UColorModeAvatar
+              class="absolute inset-0 size-full ring ring-default ring-offset-3 ring-offset-bg backface-hidden"
+              :light="global.picture?.light!"
+              :dark="global.picture?.dark!"
+              :alt="global.picture?.alt!"
+            />
+            <div
+              class="absolute inset-0 flex items-center justify-center rounded-full bg-primary ring ring-default ring-offset-3 ring-offset-bg rotate-y-180 backface-hidden"
+              aria-hidden="true"
+            >
+              <span class="font-script text-xl text-inverted">{{ global.name }}</span>
+            </div>
+          </div>
+          <span
+            class="pointer-events-none absolute inset-0 rounded-full border border-primary/40 animate-orbit motion-reduce:animate-none"
+            aria-hidden="true"
+          >
+            <span class="absolute top-0 left-1/2 size-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary" />
+          </span>
+        </div>
       </Motion>
     </template>
 
@@ -59,7 +82,15 @@ defineProps<{
           delay: 0.1
         }"
       >
-        {{ page.title }}
+        <template
+          v-for="(part, index) in titleParts"
+          :key="index"
+        >
+          <span
+            v-if="index > 0"
+            class="font-script font-normal text-primary text-[1.15em]"
+          >{{ global.name }}</span>{{ part }}
+        </template>
       </Motion>
     </template>
 

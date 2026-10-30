@@ -6,6 +6,15 @@
 @theme static {
   --font-sans: 'Public Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   --font-serif: 'Instrument Serif', serif;
+  --font-script: 'Niconne', cursive;
+
+  --animate-orbit: orbit 8s linear infinite;
+
+  @keyframes orbit {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
 
 :root {
