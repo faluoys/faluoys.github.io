@@ -4,10 +4,7 @@ seo:
 title: "你好，我是 faluoys，前端开发工程师"
 description: "我致力于打造设计与功能相融合的直观数字体验。常驻波士顿，用代码和创意让想法落地。"
 hero:
-  links:
-    - label: "使用此模板"
-      to: https://github.com/nuxt-ui-templates/portfolio
-      color: "neutral"
+  links: []
   images:
     - src: /hero/random-1.avif
       alt: 随机图片 1

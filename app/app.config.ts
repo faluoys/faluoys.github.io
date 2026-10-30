@@ -23,7 +23,7 @@ export default defineAppConfig({
     }
   },
   footer: {
-    credits: `© ${new Date().getFullYear()} faluoys • 基于 Nuxt UI 构建`,
+    credits: `© ${new Date().getFullYear()} faluoys`,
     colorMode: false,
     links: [{
       'icon': 'i-simple-icons-github',

@@ -20,7 +20,7 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt 作品集模板',
+  titleTemplate: '%s - faluoys',
   twitterCard: 'summary_large_image'
 })
 
