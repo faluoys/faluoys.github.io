@@ -1,9 +1,13 @@
 <script setup lang="ts">
 import { zh_cn } from '@nuxt/ui/locale'
+import { joinURL } from 'ufo'
 
 const colorMode = useColorMode()
 
 const color = computed(() => colorMode.value === 'dark' ? '#020618' : 'white')
+
+// 部署在子路径（如 GitHub Pages 的 /仓库名/）时，head 里的静态资源需要手动带上 baseURL
+const { baseURL } = useRuntimeConfig().app
 
 useHead({
   meta: [
@@ -12,8 +16,8 @@ useHead({
     { key: 'theme-color', name: 'theme-color', content: color }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' },
-    { rel: 'alternate', type: 'application/rss+xml', title: 'faluoys', href: '/rss.xml' }
+    { rel: 'icon', href: joinURL(baseURL, 'favicon.ico') },
+    { rel: 'alternate', type: 'application/rss+xml', title: 'faluoys', href: joinURL(baseURL, 'rss.xml') }
   ],
   htmlAttrs: {
     lang: 'zh-CN'

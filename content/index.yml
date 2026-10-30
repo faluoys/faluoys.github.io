@@ -82,7 +82,7 @@ faq:
             基于 [Nuxt 4](https://nuxt.com)、[Nuxt UI](https://ui.nuxt.com) 和 [Nuxt Content](https://content.nuxt.com) 搭建，文章用 Markdown 编写，静态生成后部署。
         - label: 博客的源码可以参考吗？
           content: |
-            可以，源码在 [GitHub](https://github.com/faluoys/nuxt-portfolio) 上公开。
+            可以，源码在 [GitHub](https://github.com/faluoys/faluoys.github.io) 上公开。
     - title: 联系我
       questions:
         - label: 怎么联系你？
