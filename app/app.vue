@@ -17,6 +17,7 @@ useHead({
   ],
   link: [
     { rel: 'icon', href: joinURL(baseURL, 'favicon.ico') },
+    { rel: 'apple-touch-icon', href: joinURL(baseURL, 'apple-touch-icon.png') },
     { rel: 'alternate', type: 'application/rss+xml', title: 'faluoys', href: joinURL(baseURL, 'rss.xml') }
   ],
   htmlAttrs: {
