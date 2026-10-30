@@ -48,7 +48,7 @@ const formatDate = (dateString: string) => {
 <template>
   <UMain class="mt-20 px-2">
     <UContainer class="relative min-h-screen">
-      <UPage v-if="page">
+      <div v-if="page">
         <ULink
           to="/blog"
           class="text-sm flex items-center gap-1"
@@ -80,6 +80,21 @@ const formatDate = (dateString: string) => {
           <p class="text-muted text-center max-w-2xl mx-auto">
             {{ page.description }}
           </p>
+          <div
+            v-if="page.tags?.length"
+            class="flex flex-wrap items-center justify-center gap-2"
+          >
+            <UButton
+              v-for="tag in page.tags"
+              :key="tag"
+              :label="tag"
+              :to="`/blog/tags/${encodeURIComponent(tag)}`"
+              size="xs"
+              color="neutral"
+              variant="subtle"
+              icon="i-lucide-hash"
+            />
+          </div>
           <div class="flex items-center justify-center gap-2 mt-2">
             <UUser
               orientation="vertical"
@@ -90,24 +105,37 @@ const formatDate = (dateString: string) => {
             />
           </div>
         </div>
-        <UPageBody class="max-w-3xl mx-auto">
-          <ContentRenderer
-            v-if="page.body"
-            :value="page"
-          />
-
-          <div class="flex items-center justify-end gap-2 text-sm text-muted">
-            <UButton
-              size="sm"
-              variant="link"
-              color="neutral"
-              label="复制链接"
-              @click="copyToClipboard(articleLink, '文章链接已复制')"
+        <UPage :ui="{ center: 'lg:col-span-7', right: 'lg:col-span-3' }">
+          <UPageBody>
+            <ContentRenderer
+              v-if="page.body"
+              :value="page"
             />
-          </div>
-          <UContentSurround :surround />
-        </UPageBody>
-      </UPage>
+
+            <div class="flex items-center justify-end gap-2 text-sm text-muted">
+              <UButton
+                size="sm"
+                variant="link"
+                color="neutral"
+                label="复制链接"
+                @click="copyToClipboard(articleLink, '文章链接已复制')"
+              />
+            </div>
+            <UContentSurround :surround />
+          </UPageBody>
+
+          <template
+            v-if="page.body?.toc?.links?.length"
+            #right
+          >
+            <UContentToc
+              title="目录"
+              :links="page.body.toc.links"
+              highlight
+            />
+          </template>
+        </UPage>
+      </div>
     </UContainer>
   </UMain>
 </template>

@@ -20,6 +20,14 @@ if (!posts.value) {
   })
 }
 
+const tags = computed(() => {
+  const counts = new Map<string, number>()
+  for (const post of posts.value || []) {
+    for (const tag of post.tags || []) counts.set(tag, (counts.get(tag) || 0) + 1)
+  }
+  return [...counts].sort((a, b) => b[1] - a[1])
+})
+
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
 
@@ -50,6 +58,23 @@ defineOgImage('Portfolio', { title, description })
         container: 'pt-0!'
       }"
     >
+      <div
+        v-if="tags.length"
+        class="flex flex-wrap gap-2"
+      >
+        <UButton
+          v-for="[tag, count] in tags"
+          :key="tag"
+          :to="`/blog/tags/${encodeURIComponent(tag)}`"
+          size="sm"
+          color="neutral"
+          variant="subtle"
+          icon="i-lucide-hash"
+        >
+          {{ tag }}
+          <span class="text-dimmed">{{ count }}</span>
+        </UButton>
+      </div>
       <UBlogPosts orientation="vertical">
         <Motion
           v-for="(post, index) in posts"

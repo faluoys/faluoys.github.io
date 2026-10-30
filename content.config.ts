@@ -29,11 +29,6 @@ const createAuthorSchema = () => z.object({
   avatar: createImageSchema().optional()
 })
 
-const createTestimonialSchema = () => z.object({
-  quote: z.string(),
-  author: createAuthorSchema()
-})
-
 export default defineContentConfig({
   collections: {
     index: defineCollection({
@@ -57,7 +52,6 @@ export default defineContentConfig({
             })
           }))
         }),
-        testimonials: z.array(createTestimonialSchema()),
         blog: createBaseSchema(),
         faq: createBaseSchema().extend({
           categories: z.array(
@@ -89,7 +83,8 @@ export default defineContentConfig({
       type: 'page',
       source: 'blog/*.md',
       schema: z.object({
-        minRead: z.number(),
+        minRead: z.number().optional(),
+        tags: z.array(z.string()).optional(),
         date: z.date(),
         image: z.string().nonempty().editor({ input: 'media' }),
         author: createAuthorSchema()
@@ -103,20 +98,6 @@ export default defineContentConfig({
       ],
       schema: z.object({
         links: z.array(createButtonSchema())
-      })
-    }),
-    speaking: defineCollection({
-      type: 'page',
-      source: 'speaking.yml',
-      schema: z.object({
-        links: z.array(createButtonSchema()),
-        events: z.array(z.object({
-          category: z.enum(['Live talk', 'Podcast', 'Conference']),
-          title: z.string(),
-          date: z.date(),
-          location: z.string(),
-          url: z.string().optional()
-        }))
       })
     }),
     about: defineCollection({

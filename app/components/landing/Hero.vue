@@ -12,7 +12,7 @@ defineProps<{
   <UPageHero
     :ui="{
       headline: 'flex items-center justify-center',
-      title: 'text-shadow-md max-w-lg mx-auto',
+      title: 'text-shadow-md max-w-4xl mx-auto',
       links: 'mt-4 flex-col justify-center items-center'
     }"
   >
@@ -106,29 +106,10 @@ defineProps<{
           class="flex items-center gap-2"
         >
           <UButton
-            v-if="page.hero.links[0]"
-            v-bind="page.hero.links[0]"
+            v-for="(link, index) in page.hero.links"
+            :key="index"
+            v-bind="link"
           />
-          <UButton
-            :color="global.available ? 'success' : 'error'"
-            variant="ghost"
-            class="gap-2"
-            :to="global.available ? global.meetingLink : ''"
-            :label="global.available ? '欢迎交流合作' : '暂不接受合作'"
-          >
-            <template #leading>
-              <span class="relative flex size-2">
-                <span
-                  class="absolute inline-flex size-full rounded-full opacity-75"
-                  :class="global.available ? 'bg-success animate-ping' : 'bg-error'"
-                />
-                <span
-                  class="relative inline-flex size-2 scale-90 rounded-full"
-                  :class="global.available ? 'bg-success' : 'bg-error'"
-                />
-              </span>
-            </template>
-          </UButton>
         </div>
       </Motion>
 

@@ -1,6 +1,10 @@
-title: 设计界面，构建体验。
-description: 我参与过各种各样的项目，专注于打造用心设计与整洁代码相结合的直观数字体验。以下是一些让我自豪的代表作，展示了我从概念到落地的完整过程。
+title: 项目
+description: 我参与或独立完成的一些项目，有工作中的实践，也有业余时间的折腾。更多代码可以在我的 GitHub 上找到。
 links:
-  - label: "聊一聊"
+  - label: "GitHub"
+    icon: "i-simple-icons-github"
+    to: "https://github.com/faluoys"
+    target: "_blank"
     color: "neutral"
   - label: '给我发邮件'
+    icon: "i-lucide-mail"

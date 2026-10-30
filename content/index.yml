@@ -1,10 +1,14 @@
 seo:
   title: "faluoys - 前端开发工程师"
-  description: "欢迎来到我的作品集！我是 faluoys，一名前端开发工程师，专注于打造以用户为中心、兼具美感与实用性的数字体验。"
+  description: "faluoys 的个人技术博客，记录前端开发、Vue / Nuxt 实践、工程化与踩坑笔记。"
 title: "你好，我是 faluoys，前端开发工程师"
-description: "我致力于打造设计与功能相融合的直观数字体验。常驻波士顿，用代码和创意让想法落地。"
+description: "热爱 Vue / Nuxt 生态，关注工程化与用户体验。这里记录我的技术笔记、项目实践和踩坑经验。"
 hero:
-  links: []
+  links:
+    - label: "阅读博客"
+      to: /blog
+      icon: "i-lucide-book-open"
+      color: "neutral"
   images:
     - src: /hero/random-1.avif
       alt: 随机图片 1
@@ -27,8 +31,8 @@ hero:
 about:
   title: "关于我"
   description: |
-    作为一名拥有 6 年经验的 UX/UI 设计师和前端开发者，我运用在波士顿大学交互设计专业所学，打造以用户为中心的数字体验。
-    我的方法融合了创意策略与技术专长，把概念转化为实用、有目标的数字产品，让设计与技术无缝结合。
+    我是一名前端开发工程师，日常主要使用 Vue、Nuxt 和 TypeScript，关注前端工程化、组件设计与用户体验。
+    写博客是为了把学到的知识和踩过的坑沉淀下来，也希望能帮到遇到同样问题的你。
 experience:
   title: 工作经历
   items:
@@ -53,65 +57,37 @@ experience:
         logo: "i-simple-icons-linear"
         url: "https://linear.app"
         color: "#5E6AD2"
-testimonials:
-  - quote: "faluoys 的 UX 设计方法彻底改变了我们的产品。这是一种难得的能力，能在美观与简洁实用之间取得平衡。重新设计后的产品不仅更好看，还让客服工单减少了 40%，各项关键指标的转化率也全面提升。"
-    author:
-      name: 'Sarah Chen'
-      description: 'Bloom Finance 产品总监'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "和 faluoys 合作是我们创业以来做过的最好的决定。不只是交付设计稿——还会挑战我们的固有假设，做扎实的用户研究，打造出真正打动用户的体验。因为懂前端开发，所以和工程团队的交接非常顺畅。"
-    author:
-      name: 'Michael Rodriguez'
-      description: 'Wavelength Music 联合创始人'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "faluoys 特别擅长把复杂的可持续发展数据转化为直观的界面。在 EcoTrack 上的工作不只是视觉上惊艳——它从根本上改变了用户与环保信息的互动方式。兼具创造力和严谨的分析能力，这正是我们需要的。"
-    author:
-      name: 'Dr. Aisha Johnson'
-      description: 'GreenTech Solutions 首席创新官'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
 blog:
   title: "最新文章"
   description: "我最近的一些思考"
 faq:
   title: 常见问题
-  description: 关于我的工作流程和服务的常见问题解答。
+  description: 关于我和这个博客，你可能想知道的事。
   categories:
-    - title: 服务与流程
+    - title: 关于博客
       questions:
-        - label: 你提供哪些服务？
+        - label: 这个博客主要写什么？
           content: |
-            我专注于 UX/UI 设计和前端开发，包括用户研究、线框图、交互原型、直观的用户界面设计、响应式网站和 Web 应用开发（尤其是 Vue.js/Nuxt.js），以及设计系统搭建。我的目标是从概念到上线，打造流畅的数字体验。
-        - label: 你的设计流程是怎样的？
+            以前端技术为主：Vue / Nuxt 实践、TypeScript、前端工程化、性能优化，以及日常开发中的踩坑记录，偶尔也会写一些学习方法和生活随想。
+        - label: 怎么及时收到更新？
           content: |
-            我的流程注重协作和迭代，通常包括调研与发现、构思与原型、用户测试、视觉设计，以及在开发阶段与研发团队紧密配合。我会根据项目需求灵活调整流程，始终以用户为中心。
-        - label: 你和初创公司合作吗？
+            可以通过 [RSS](/rss.xml) 订阅，也可以在掘金或 GitHub 关注我。
+        - label: 文章可以转载吗？
           content: |
-            当然！我很喜欢和初创公司合作，帮助他们塑造产品愿景，从零开始打造友好的用户界面。我能调整自己的流程，适应初创公司快节奏的环境。
-    - title: 价格与周期
+            欢迎转载，请注明作者和原文链接。
+    - title: 技术栈
       questions:
-        - label: 一个项目通常收费多少？
+        - label: 这个博客是用什么搭建的？
           content: |
-            项目费用取决于范围、复杂度、功能和周期。完整的 UX/UI 设计加前端开发项目通常 5,000 美元起，一般项目在 8,000 到 25,000 美元之间。咨询或单项设计任务按天计费，日薪 700 美元。
-        - label: 付款方式是怎样的？
+            基于 [Nuxt 4](https://nuxt.com)、[Nuxt UI](https://ui.nuxt.com) 和 [Nuxt Content](https://content.nuxt.com) 搭建，文章用 Markdown 编写，静态生成后部署。
+        - label: 博客的源码可以参考吗？
           content: |
-            通常需要先支付 40% 定金来排期并启动项目，剩余 60% 在项目顺利完成并交付后支付。支持银行转账和 Stripe 付款。
-        - label: 一个项目一般需要多长时间？
-          content: |
-            周期很大程度上取决于项目范围和复杂度。小项目可能需要 3-4 周，规模较大、较复杂的项目可能需要 2 到 4 个月。在初期调研阶段结束后，我都会提供详细的时间预估。
-        - label: 你提供长期合作或持续支持吗？
-          content: |
-            提供。对于需要持续设计支持、功能开发或维护的客户，我提供按月计费的长期合作方案，可以按具体需求定制。如果你感兴趣，欢迎来聊聊。
-    - title: 关于我
+            可以，源码在 [GitHub](https://github.com/faluoys/nuxt-portfolio) 上公开。
+    - title: 联系我
       questions:
-        - label: 你最喜欢这份工作的哪一点？
+        - label: 怎么联系你？
           content: |
-            我喜欢通过设计和技术解决复杂问题的挑战。看到人们使用我做的东西，并觉得它真正有用、好上手，这是非常有成就感的事。在用户需求和技术可能性之间架起桥梁，是最让我兴奋的。
-        - label: 工作之外你有什么爱好？
+            可以发邮件到 [zflqljaq@gmail.com](mailto:zflqljaq@gmail.com)，也可以在 GitHub、X 或掘金上找到我。
+        - label: 发现文章有错误怎么办？
           content: |
-            不设计、不写代码的时候，我喜欢逛波士顿的各个街区、探店新开的咖啡馆，或者去附近的自然保护区徒步。我也热爱摄影，偶尔会参与开源项目。
+            非常欢迎指正！可以发邮件告诉我，或者在 GitHub 仓库提 Issue。

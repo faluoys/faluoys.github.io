@@ -3,7 +3,7 @@ title: UI 设计中的色彩心理学
 description: 探讨有策略的色彩选择如何影响用户行为、唤起情绪，并提升数字产品的整体用户体验。
 date: 2025-03-15
 image: https://images.pexels.com/photos/40799/paper-colorful-color-loose-40799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-minRead: 5
+tags: ["UI 设计", "UX", "色彩"]
 author:
   name: faluoys
   avatar:

@@ -3,7 +3,7 @@ title: 我是如何从零搭建自己的设计系统的
 description: 一份打造个人设计系统的实用指南——从最初的盘点到落地实现，以及这一路上的经验教训。
 date: 2025-03-05
 image: https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-minRead: 6
+tags: ["设计系统", "组件化", "工作流"]
 author:
   name: faluoys
   avatar:

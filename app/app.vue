@@ -12,7 +12,8 @@ useHead({
     { key: 'theme-color', name: 'theme-color', content: color }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', href: '/favicon.ico' },
+    { rel: 'alternate', type: 'application/rss+xml', title: 'faluoys', href: '/rss.xml' }
   ],
   htmlAttrs: {
     lang: 'zh-CN'

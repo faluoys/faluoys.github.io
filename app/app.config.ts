@@ -5,9 +5,7 @@ export default defineAppConfig({
       light: '/avatar.jpg',
       alt: 'faluoys 的头像'
     },
-    meetingLink: 'mailto:zflqljaq@gmail.com',
-    email: 'zflqljaq@gmail.com',
-    available: true
+    email: 'zflqljaq@gmail.com'
   },
   ui: {
     colors: {
@@ -40,6 +38,11 @@ export default defineAppConfig({
       'to': 'https://juejin.cn/user/3934521496452874',
       'target': '_blank',
       'aria-label': '掘金'
+    }, {
+      'icon': 'i-lucide-rss',
+      'to': '/rss.xml',
+      'target': '_blank',
+      'aria-label': 'RSS 订阅'
     }]
   }
 })

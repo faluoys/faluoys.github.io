@@ -3,7 +3,7 @@ title: 在快节奏的数字世界里，为"慢设计"辩护
 description: 为什么设计鼓励用户放慢脚步、深度参与的数字体验，能带来更有意义的互动和更好的结果。
 date: 2025-01-28
 image: https://images.pexels.com/photos/4050314/pexels-photo-4050314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-minRead: 7
+tags: ["UX", "产品设计"]
 author:
   name: faluoys
   avatar:

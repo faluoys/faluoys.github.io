@@ -3,7 +3,7 @@ title: "从原型到上市：我的端到端产品设计流程"
 description: 详细拆解我的迭代式设计方法——从最初的调研到最终交付，并为各个阶段的设计师提供实用建议。
 date: 2025-04-23
 image: https://images.pexels.com/photos/1050312/pexels-photo-1050312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-minRead: 8
+tags: ["产品设计", "UX", "工作流"]
 author:
   name: faluoys
   avatar:
